@@ -232,7 +232,7 @@ describe('Hash format for anchoring', () => {
     // In actual code, this would be: ethers.hexlify(ethers.toUtf8Bytes(memoData))
     // For test, just verify the format
     assert.ok(memoData.startsWith('autopilot:ledger:'));
-    assert.strictEqual(memoData.length, 78); // 14 + 64
+    assert.strictEqual(memoData.length, 81); // 17 + 64
   });
 });
 
